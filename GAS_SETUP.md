@@ -1,10 +1,10 @@
-# Panduan Pemasangan Google Apps Script (GAS) untuk PPDB Online
+# Panduan Pemasangan Google Apps Script (GAS) untuk SPMB Online
 
-Sistem PPDB Online ini menggunakan Google Apps Script dan Google Sheets sebagai backend (database). Berikut adalah langkah-langkah untuk memasangnya:
+Sistem SPMB Online ini menggunakan Google Apps Script dan Google Sheets sebagai backend (database). Berikut adalah langkah-langkah untuk memasangnya:
 
 ## Langkah 1: Buat Google Sheet Baru
 1. Buka [Google Sheets](https://sheets.google.com) dan buat spreadsheet baru.
-2. Beri nama spreadsheet tersebut, misalnya "Data PPDB 2024".
+2. Beri nama spreadsheet tersebut, misalnya "Data SPMB 2024".
 3. Buat 2 sheet (tab) di bagian bawah:
    - Sheet 1: Ubah namanya menjadi `Pendaftar`
    - Sheet 2: Ubah namanya menjadi `Pengaturan`
@@ -128,7 +128,7 @@ function doPost(e) {
     }
     
     const lastRow = sheet.getLastRow();
-    const noPendaftaran = `PPDB-${tahunPendaftaran}-${String(lastRow).padStart(3, '0')}`;
+    const noPendaftaran = `SPMB-${tahunPendaftaran}-${String(lastRow).padStart(3, '0')}`;
     
     const rowData = headers.map(header => {
       if (header === 'Timestamp') return new Date().toISOString();
