@@ -28,10 +28,10 @@ const DEFAULT_FORM_FIELDS = [
 ];
 
 const DEFAULT_SETTINGS = {
-  namaSekolah: "SDN Harapan Bangsa",
-  alamat: "Jl. Pendidikan No. 123, Kota Pelajar, Indonesia 12345",
-  telepon: "(021) 1234-5678",
-  email: "info@sdnharapanbangsa.sch.id",
+  namaSekolah: "SD Negeri 3 Cicurug",
+  alamat: "Jl. Kaum Kidul No. 71, Kel. Cicurug, Kab. Sukabumi, Prov. Jawa Barat, Indonesia 43359",
+  telepon: "(0266) 7502012",
+  email: "sdn3cicurug.71@gmail.com",
   deskripsi: "Mencetak generasi penerus bangsa yang cerdas, berakhlak mulia, dan siap menghadapi tantangan masa depan dengan pendidikan berkualitas.",
   statusPendaftaran: "Buka",
   formFields: JSON.stringify(DEFAULT_FORM_FIELDS)
@@ -56,7 +56,7 @@ function setup() {
   if (!adminSheet) {
     adminSheet = ss.insertSheet(ADMIN_SHEET_NAME);
     adminSheet.appendRow(["Username", "Password"]);
-    adminSheet.appendRow(["admin", "admin123"]); // Default credentials
+    adminSheet.appendRow(["20202716", "0266731116kece"]); // Default credentials
     adminSheet.getRange(1, 1, 1, 2).setFontWeight("bold").setBackground("#e0e0e0");
   }
 
