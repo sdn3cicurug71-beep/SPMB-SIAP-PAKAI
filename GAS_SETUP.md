@@ -18,9 +18,9 @@ Sistem SPMB Online ini menggunakan Google Apps Script dan Google Sheets sebagai 
    - A1: `Key`
    - B1: `Value`
 6. Isi data awal di sheet `Pengaturan`:
-   - A2: `namaSekolah` | B2: `SDN Harapan Bangsa`
+   - A2: `namaSekolah` | B2: `SD Negeri 3 Cicurug`
    - A3: `statusPendaftaran` | B3: `Buka`
-   - A4: `tahunPendaftaran` | B4: `2024`
+   - A4: `tahunPendaftaran` | B4: `2026`
    - (Tambahkan pengaturan lain sesuai kebutuhan)
 
 ## Langkah 2: Buat Google Apps Script
