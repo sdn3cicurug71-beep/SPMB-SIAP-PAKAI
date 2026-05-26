@@ -160,7 +160,22 @@ export default function Home() {
               <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
                 Sambutan Kepala Sekolah
               </h2>
-              <div className="prose prose-lg text-slate-600">
+              <div className="Assalamu’alaikum Warahmatullahi Wabarakatuh
+
+Puji syukur kita panjatkan ke hadirat Allah SWT atas limpahan rahmat dan karunia-Nya sehingga SDN 3 Cicurug dapat kembali menyelenggarakan Sistem Penerimaan Murid Baru (SPMB) Tahun Pelajaran 2026/2027.
+
+Selamat datang di website resmi SPMB SDN 3 Cicurug. Website ini hadir sebagai sarana informasi dan pelayanan bagi masyarakat, khususnya orang tua/wali calon peserta didik baru, agar proses pendaftaran dapat berjalan lebih mudah, transparan, efektif, dan efisien.
+
+SDN 3 Cicurug berkomitmen untuk memberikan pendidikan yang berkualitas, membentuk peserta didik yang berkarakter, religius, disiplin, kreatif, dan berprestasi sesuai dengan visi sekolah:
+“Membangun Generasi Cerdas, Berkarakter, dan Berprestasi.”
+
+Melalui SPMB Tahun Pelajaran 2026/2027 ini, kami mengajak seluruh orang tua untuk bersama-sama mendukung tumbuh kembang anak dalam lingkungan pendidikan yang aman, nyaman, dan menyenangkan. Kami percaya bahwa pendidikan yang baik lahir dari kerja sama yang harmonis antara sekolah, orang tua, dan masyarakat.
+
+Kami mengucapkan terima kasih atas kepercayaan masyarakat kepada SDN 3 Cicurug sebagai tempat belajar dan berkembang bagi putra-putri tercinta. Semoga seluruh rangkaian proses penerimaan murid baru dapat berjalan lancar dan memberikan manfaat bagi semua pihak.
+
+Akhir kata, kami ucapkan selamat bergabung kepada calon peserta didik baru SDN 3 Cicurug. Mari bersama-sama meraih masa depan yang gemilang.
+
+Wassalamu’alaikum Warahmatullahi Wabarakatuh.">
                 {settings?.sambutanKepalaSekolah?.split('\n').map((paragraph, idx) => (
                   <p key={idx} className="mb-4">
                     {paragraph}
